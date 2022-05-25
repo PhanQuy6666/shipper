@@ -38,6 +38,7 @@
 .menu{
     margin-top: 10px;
     
+    
 }
 .menu-top{
     text-align: center;
@@ -55,9 +56,5 @@
 }
 .footer{
     
-    height: 200px;
-    background-color: #000;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 0;
+    
 }

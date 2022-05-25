@@ -13,33 +13,49 @@
 <body>
     <div class="header">
         <div class="container" >
-            <div class="row text-center" style=" background-color: red; ">
-                <div class="col-6 home">
-                    <h3><a href="/index.html">TRANG CHỦ</a></h3>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/index.html">Trang chủ</a>
+                <a class="navbar-brand" href="/post.html">Đăng tin</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Đăng kí</a>
+                    </li>
+                    
+                  </ul>
                 </div>
-                <div class="col-6 home">
-                    <h3><a href="/post.html">ĐĂNG TIN</a></h3>
-                </div>
-            </div>
+              </nav>
         </div>
         <div class="row">
             <div id="background" >
                 <h3>Ở đâu có hàng, ở đó có SHIP</h3>
             </div>
             
-        </div>
+        </div>  
     </div>
     <div class="main">
         
         <div class="container menu " >
-            <div class="row">
-                <form action="">
+            <form style="text-align:center;" id="" action="">
+            
+                
                     <div class="row">
                         <div class="col-4">
                             <p><b>Ship từ: </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
@@ -47,7 +63,7 @@
                             <p><b>Ship đến: </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
@@ -55,7 +71,7 @@
                             <p><b>Thời gian : </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
@@ -63,7 +79,7 @@
                             <p><b>Họ và tên: </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
@@ -71,14 +87,14 @@
                             <p><b>Năm sinh: </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-4">
                             <p><b>Giới tính: </b></p>
                         </div>
-                        <div class="col-9">
+                        <div style="text-align:left ;" class="col-8">
                             <input type="radio" value="Nam" name="Gender"> Nam
                             <input type="radio" value="Nam" name="Gender"> Nữ
                         </div>
@@ -88,32 +104,38 @@
                             <p><b>Số điện thoại: </b></p>
                         </div>
                         <div class="col-8">
-                            <input type="text" >
+                            <input style="width:100%" type="text" >
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 ">
+                        <div class="col-3 ">
                             <div class="login">
                                 <input type="button" value="ĐĂNG TIN" name="submit" id="">
                             </div>
                         </div>
                         
-                        <div class="col-6">
-                            <div class="login">
-                                <input type="button" value="NHẬP LẠI" name="submit" id="">
+                        <div class="col-9">
+                            <div style="text-align:left ;">
+                                <input  type="button" value="NHẬP LẠI" name="submit" id="">
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
+                
             
+            </form> 
         </div>
         
         
         
     </div>
     <div class="footer">
-
+        <div style="background-color:black ; color: #fff;" class="container">
+            
+                    <h5>@2022-Chịu trách nhiệm nội dung bởi Mr Quý</p>
+              
+                
+           
+        </div>
     </div>
 </body>
 </html>
